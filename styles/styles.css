@@ -1,0 +1,76 @@
+/* Header section */
+.header {}
+
+.header-nav {}
+
+.header-logo {}
+
+.header-nav-list {}
+
+.header-nav-item {}
+
+.header-nav-link {}
+
+.header-address {}
+
+.header-contacts-list {}
+
+.header-contacts-item {}
+
+.header-contacts-link {}
+
+ /* Section hero */
+
+ .section-hero {}
+
+ .hero-title {}
+
+ .hero-button {}
+
+/* Section benefits */
+
+ .section-benefits {}
+
+ .benefits-title {}
+
+ .benefits-list {}
+
+ .benefits-item {}
+
+ .benefits-item-text {}
+
+ /* Section functions */
+
+ .section-functions {}
+
+ .functions-title {}
+
+ .functions-list {}
+
+ .functions-item {}
+
+ .functions-img {}
+
+ /* Section team */
+
+ .section-team {}
+
+ .team-title {}
+
+ .team-list {}
+
+ .team-item {}
+
+ .team-img {}
+
+ .team-name {}
+
+ .team-position {}
+
+ /* Footer */
+
+.footer {}
+
+.footer-logo {}
+
+.footer-text {}
