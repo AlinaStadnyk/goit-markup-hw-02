@@ -8,6 +8,7 @@ body {
   --page-color: #ffffff;
   --logo-color: #4d5ae5;
   --hero-background: #2e2f42;
+  --logo-background-light: #f4f4fd;
 }
 button {
   cursor: pointer;
@@ -248,14 +249,16 @@ ul {
   text-align: center;
 }
 .filter-button {
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--logo-color);
   background-color: #f4f4fd;
 }
 .filter-button:focus,
 .filter-button:hover {
+  color: #ffffff;
   background-color: #404bbf;
 }
