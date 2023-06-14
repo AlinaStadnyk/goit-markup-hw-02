@@ -50,7 +50,7 @@ a {
 }
 
 .header-logo-part {
-  color: var(--hero-background)
+  color: #f4f4fd;
 }
 
 .header-nav-list {
@@ -63,8 +63,15 @@ a {
   color: #404bbf;
 }
 
-.header-nav-link {
+.header-nav-link {}
+
+.header-nav-item:hover,
+.header-nav-item:focus, 
+.header-nav-item:active
+{
+  color: #404bbf;
 }
+
 
 .header-address {
   font-style: normal;
@@ -214,7 +221,7 @@ a {
 /* Footer */
 
 .footer {
-  background-color: var(--hero-background);
+ background-color: var(--hero-background);
 }
 .footer-logo {
   font-family: Raleway, sans-serif;
@@ -227,7 +234,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--logo-background-light)
+  color: var(--logo-background-light);
   background-color: #4d5ae5;
 }
 
