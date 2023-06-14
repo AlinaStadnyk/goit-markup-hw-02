@@ -50,8 +50,7 @@ a {
 }
 
 .header-logo-part {
-  color: #f4f4fd;
-}
+  color: var(--hero-background);}
 
 .header-nav-list {
 }
@@ -88,7 +87,8 @@ a {
   color: #434455;
 }
 .header-contacts-item:focus,
-.header-contacts-item:hover {
+.header-contacts-item:hover,
+.header-contacts-item:active {
   color: #404bbf;
 }
 
@@ -221,7 +221,7 @@ a {
 /* Footer */
 
 .footer {
- background-color: var(--hero-background);
+  color: var(--hero-background);
 }
 .footer-logo {
   font-family: Raleway, sans-serif;
