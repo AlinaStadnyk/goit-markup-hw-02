@@ -18,9 +18,11 @@ a {
   text-decoration: none;
   color: currentColor;
 }
+.link {
+  text-decoartion: none;
+}
 
-ol,
-ul {
+.list {
   list-style: none;
 }
 /* Header section */
@@ -48,7 +50,7 @@ ul {
 }
 
 .header-logo-part {
-  color: #2e2f42;
+  color: #f4f4fd;
 }
 
 .header-nav-list {
@@ -63,6 +65,7 @@ ul {
 }
 
 .header-address {
+  font-style: normal;
 }
 
 .header-contacts-list {
@@ -170,7 +173,7 @@ ul {
 
 .section-team {
   text-align: center;
-}
+   background-color:  #F4F4FD;
 
 .team-title {
   font-weight: 700;
