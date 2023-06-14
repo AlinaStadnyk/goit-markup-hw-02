@@ -57,7 +57,9 @@ a {
 }
 
 .header-nav-item:hover,
-.header-nav-item:focus {
+.header-nav-item:focus, 
+.header-nav-item:active
+{
   color: #404bbf;
 }
 
