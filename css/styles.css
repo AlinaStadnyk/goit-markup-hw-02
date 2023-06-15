@@ -59,21 +59,12 @@ address {
 
 }  
 
-.header-nav-list {
-}
+.header-nav-link {
 
 .header-nav-item:hover,
 .header-nav-item:focus, 
 .header-nav-item:active
-{
-  color: #404bbf;
 }
-
-.header-nav-link {}
-
-.header-nav-item:hover,
-.header-nav-item:focus, 
-.header-nav-item:active
 {
   color: #404bbf;
 }
@@ -199,7 +190,7 @@ address {
 
 /* Footer */
 
-.footer {
+.footer-section {
 background-color: var(--hero-background)
 }
 
