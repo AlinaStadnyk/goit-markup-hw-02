@@ -82,7 +82,8 @@ address {
 }
 
 .header-contacts-link:focus,
-.header-contacts-link:hover {
+.header-contacts-link:hover,
+.header-contacts-link:active {
   color: #404bbf;
 }
 
@@ -178,7 +179,7 @@ address {
 
 .team-list {
 }
-.team-item {
+.team-card {
   background-color: #FFFFFF;
 }
 
@@ -193,7 +194,7 @@ address {
 /* Footer */
 
 .footer-section {
-background-color: var(--hero-background)
+background-color: var(--hero-background);
 }
 
 .footer-logo {
@@ -209,8 +210,8 @@ background-color: var(--hero-background)
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--logo-background-light)
-  background-color: #4d5ae5;
+  color: var(--logo-background-light);
+  background-color: var(--hero-background);
 }
 
 .projects-list {
@@ -240,8 +241,9 @@ background-color: var(--hero-background)
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--logo-color);
-  background-color: var(--logo-background-light)
+  background-color: var(--logo-background-light);
 }
+
 .filter-button:hover,
 .filter-button:focus {
   color: #FFFFFF;
