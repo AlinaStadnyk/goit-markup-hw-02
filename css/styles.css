@@ -21,7 +21,9 @@ a {
 .link {
   text-decoration: none;
 }
-
+address {
+  font-style: normal;
+}
 .list {
   list-style: none;
 }
@@ -49,8 +51,13 @@ a {
   color: var(--logo-color);
 }
 
-.header-logo-part {
+.header-logo-dark {
   color: var(--hero-background);}
+
+.footer-logo-light {
+  color: var(--logo-background-light);
+
+}  
 
 .header-nav-list {
 }
@@ -72,27 +79,19 @@ a {
 }
 
 
-.header-address {
-  font-style: normal;
-}
-
 .header-contacts-list {
 }
 
-.header-contacts-item {
-  font-weight: 400;
+.header-contacts-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-contacts-item:focus,
-.header-contacts-item:hover,
-.header-contacts-item:active {
-  color: #404bbf;
-}
 
-.header-contacts-link {
+.header-contacts-link:focus,
+.header-contacts-link:hover {
+  color: #404bbf;
 }
 
 /* Section hero */
@@ -136,15 +135,15 @@ a {
 .benefits-list {
 }
 
-.benefits-item {
+.section-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--hero-background)
 }
 
-.benefits-item-text {
+.section-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -159,13 +158,13 @@ a {
   background-color: #f4f4fd;
 }
 
-.functions-title {
+.section-name {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--hero-background)
 }
 
 .functions-list {
@@ -184,14 +183,6 @@ a {
   text-align: center;
    background-color:  #F4F4FD;
 
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--hero-background);
-}
 
 .team-list {
 }
@@ -203,21 +194,9 @@ a {
 .team-img {
 }
 
-.team-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--hero-background);
-}
 
-.team-position {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+
+
 
 /* Footer */
 
