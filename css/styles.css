@@ -59,15 +59,16 @@ address {
 
 }  
 
-.header-nav-link {
+
 
 .header-nav-item:hover,
 .header-nav-item:focus, 
-.header-nav-item:active
+.header-nav-item:active {
+ color: #404bbf;
 }
-{
-  color: #404bbf;
-}
+
+ 
+
 
 
 .header-contacts-list {
@@ -181,6 +182,7 @@ address {
   background-color: #FFFFFF;
 }
 
+
 .team-img {
 }
 
@@ -233,15 +235,15 @@ background-color: var(--hero-background)
   text-align: center;
 }
 .filter-button {
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--logo-color);
-  background-color: #f4f4fd;
+  background-color: var(--logo-background-light)
 }
 .filter-button:hover,
 .filter-button:focus {
+  color: #FFFFFF;
   background-color: #404bbf;
 }
