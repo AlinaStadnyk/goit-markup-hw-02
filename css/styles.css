@@ -190,13 +190,14 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--hero-background);
 }
 
 .team-list {
 }
 
 .team-item {
+  background-color: #ffffff;
 }
 
 .team-img {
@@ -207,7 +208,7 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--hero-background);
 }
 
 .team-position {
@@ -221,12 +222,15 @@ a {
 /* Footer */
 
 .footer {
-  color: var(--hero-background);
+background-color: var(--hero-background);
 }
 .footer-logo {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   color: var(--logo-color);
+}
+.footer-logo-part {
+  color: #f4f4fd;
 }
 
 .footer-text {
