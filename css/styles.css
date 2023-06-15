@@ -9,6 +9,7 @@ body {
   --logo-color: #4d5ae5;
   --hero-background: #2e2f42;
   --logo-background-light: #f4f4fd;
+  --main-background-light: #ffffff;
 }
 button {
   cursor: pointer;
@@ -52,24 +53,18 @@ address {
 }
 
 .header-logo-dark {
-  color: var(--hero-background);}
+  color: var(--hero-background);
+}
 
 .footer-logo-light {
   color: var(--logo-background-light);
-
-}  
-
-
-
-.header-nav-link:hover,
-.header-nav-link:focus, 
-.header-nav-link:active {
- color: #404bbf;
 }
 
- 
-
-
+.header-nav-link:hover,
+.header-nav-link:focus,
+.header-nav-link:active {
+  color: #404bbf;
+}
 
 .header-contacts-list {
 }
@@ -133,7 +128,7 @@ address {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--hero-background)
+  color: var(--hero-background);
 }
 
 .section-text {
@@ -157,14 +152,14 @@ address {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--hero-background)
+  color: var(--hero-background);
 }
 
 .functions-list {
 }
 
 .functions-item {
-  background-color: #ffffff;
+  background-color: var(--main-background-light);
 }
 
 .functions-img {
@@ -174,26 +169,21 @@ address {
 
 .section-team {
   text-align: center;
-   background-color:  #F4F4FD;
-
+  background-color: #f4f4fd;
+}
 
 .team-list {
 }
 .team-card {
-  background-color: #FFFFFF;
+  background-color: var(--main-background-light);
 }
-
 
 .team-img {
 }
 
-
-
-
-
 /* Footer */
-.foot-section {
-  color: var(--hero-background)
+.footer-section {
+  background-color: var(--hero-background);
 }
 
 .footer-logo {
@@ -208,7 +198,7 @@ address {
 .footer-text {
   line-height: 1.5;
   color: var(--logo-background-light);
- letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 }
 
 .projects-list {
@@ -243,6 +233,6 @@ address {
 
 .filter-button:hover,
 .filter-button:focus {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #404bbf;
 }
